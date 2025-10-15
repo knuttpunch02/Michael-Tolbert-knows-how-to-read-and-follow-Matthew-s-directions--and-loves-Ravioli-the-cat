@@ -1,3 +1,6 @@
+import processing.svg.*;
+
+beginRecord(SVG, "myCoolPlot.svg");
 size(816, 1056);
 scale(5.0);
 translate(30, 30);
@@ -14,3 +17,4 @@ line(20.5, 40, 29, 40);
 line(70, 40, 79, 40);
 line(20, 60, 30, 60);
 line(70, 60, 79, 60);
+endRecord();
